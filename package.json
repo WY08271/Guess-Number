@@ -1,0 +1,16 @@
+{
+  "name": "guessnumber",
+  "version": "1.0.0",
+  "private": true,
+  "main":"./main/answer-generator.js",
+  "scripts": {
+    "start": "node ./spec/answer-generator-spec.js --use_strict",
+    "test": "jasmine ./spec/answer-generator-spec.js"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  }
+}
