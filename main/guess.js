@@ -6,7 +6,7 @@ function Guess ( answerGenerator , compareNumber ) {
 }
 
 Guess.prototype.guess = function ( input ) {
-  
+
   var result  = this.comparenumber.compare(input , this.answer);
 
   return result;

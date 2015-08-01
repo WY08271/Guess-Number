@@ -5,8 +5,10 @@ function CompareNumber() {
 }
 
 CompareNumber.prototype.compare = function(input,answer) {
+
     var A = 0;
     var B = 0;
+    
     for(var i = 0; i < input.length; i++) {
         if(input[i] === answer[i]) {
             A++;

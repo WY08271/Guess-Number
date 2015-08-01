@@ -5,7 +5,7 @@ var CompareNumber = require('../main/compare-number');
 describe('CompareNumber', function() {
   describe( '#compare()',function () {
 
-var compareNumber;
+    var compareNumber;
 
     beforeEach(function(){
         compareNumber = new CompareNumber();
