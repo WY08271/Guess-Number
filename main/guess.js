@@ -1,7 +1,7 @@
 'use _strict';
 
 function Guess ( answerGenerator , compareNumber ) {
-  this.answer = answerGenerator.randomnumber();
+  this.answer = answerGenerator.randernumber();
   this.comparenumber = compareNumber;
 }
 

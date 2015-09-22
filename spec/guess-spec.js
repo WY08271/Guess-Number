@@ -11,7 +11,7 @@ describe('Guess', function() {
     var comparenumber = new CompareNumber();
 
     it('shoule be return 2A2B', function() {
-      spyOn(answergenerator, 'randomnumber').and.returnValue('1243');
+      spyOn(answergenerator, 'randernumber').and.returnValue('1243');
       spyOn(comparenumber, 'compare').and.callFake(function(input, answer) {
         if (input === '1234' && answer === '1243') {
           return '2A2B';
