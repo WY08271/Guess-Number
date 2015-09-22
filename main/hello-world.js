@@ -1,4 +1,4 @@
-'use strict';
+'use _strict';
 
 var HelloWorld = (function() {
 

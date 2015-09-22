@@ -1,28 +1,28 @@
-'use strict';
+'use _strict';
 
 var CompareNumber = require('../main/compare-number');
 
 describe('CompareNumber', function() {
-  describe( '#compare()',function () {
+  describe('#compare()', function() {
 
     var compareNumber;
 
-    beforeEach(function(){
-        compareNumber = new CompareNumber();
-     });
+    beforeEach(function() {
+      compareNumber = new CompareNumber();
+    });
 
-    it('can be return 0A0B' ,function () {
-      var result = compareNumber.compare('1234','5678');
+    it('can be return 0A0B', function() {
+      var result = compareNumber.compare('1234', '5678');
       expect(result).toBe('0A0B');
     });
 
-    it('can be return 4A0B' ,function () {
-      var result = compareNumber.compare('1234','1234');
+    it('can be return 4A0B', function() {
+      var result = compareNumber.compare('1234', '1234');
       expect(result).toBe('4A0B');
     });
 
-    it('can be return 0A4B' ,function () {
-      var result = compareNumber.compare('1234','4321');
+    it('can be return 0A4B', function() {
+      var result = compareNumber.compare('1234', '4321');
       expect(result).toBe('0A4B');
     });
   });

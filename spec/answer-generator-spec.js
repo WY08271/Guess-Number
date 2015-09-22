@@ -1,4 +1,4 @@
-'use strict';
+'use _strict';
 
 var AnswerGenerator = require('../main/answer-generator');
 
@@ -15,7 +15,6 @@ describe('AnswerGenerator', function() {
       var number = answergenerator.randernumber();
       expect(number.length).toBe(4);
       });
-
 
       it('can be return rander number' , function(){
 

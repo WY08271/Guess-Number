@@ -1,4 +1,4 @@
-'use strict';
+'use _strict';
 
 function Guess ( answerGenerator , compareNumber ) {
   this.answer = answerGenerator.randomnumber();
